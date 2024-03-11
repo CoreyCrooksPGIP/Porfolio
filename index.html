@@ -4,11 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
+    <title>Corey Crooks | Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="scripts/greetingHandler.js"></script>
   </head>
-  <body>
-	<h1>The Website is Live!</h1>
-	<script src="index.js"></script>
+  <body onload="newGreeting(homeGreeting)">
+    <span class="title">
+      <div class="titleContainer">
+        <div class="row">
+          <div class="col">      
+            <img class="icon" src="img/classicIcon.jpg">
+          </div>
+          <div class="col doubleCol">   
+            <div class="titleContent">   
+              <h1>Corey Crooks</h1>
+              <h2>Front-End Programmer</h2>
+              <h2>&#47;&#47;Portfolio Website</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </span>
+    <div>
+      <h3 class="casualGreeting">hey there</h3>
+      <h3 class="randomGreeting" id="homeGreeting"></h3>
+    </div>
   </body>
 </html>

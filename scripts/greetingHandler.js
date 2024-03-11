@@ -3,7 +3,7 @@
 //Start the helper chain method to have an easy way to modify how this effect starts, and what it looks like going through.
 function newGreeting(elementID)
 {
-    //Start a variable to keep track of the current greeting's index
+    //Start a variable to keep track of the current greeting's index set it at -1 to ensure we can still pick the first greeting (more on that later)
     greetingIndex = -1;
     //Call step one.
     eraseGreeting(elementID);
@@ -55,7 +55,9 @@ async function writeGreeting(elementID)
         //Choose another one.
         newGreetingIndex = Math.floor(Math.random() * greetings.length);
     }
+    //Remember the current greeting index to compare again.
     greetingIndex = newGreetingIndex;
+    //set the chosen greeting to fill the html content
     chosenGreeting = greetings[newGreetingIndex];
 
     //Put the length of the element's text string in it's own identifying variable.

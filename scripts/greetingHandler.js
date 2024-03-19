@@ -41,9 +41,10 @@ async function writeGreeting(elementID)
         "Where are we going from here?",
         "Take a look at my photography, and tell me what you think!",
         "I have some projects on my GitHub that you should check out.",
-        "There's a page on my design philosophies, if you want a healthy debate.",
+        "There's a page on my design philosophies, if you want to see what we agree on.",
         "It's great to have you stop by.",
         "I'm always open to some tips and tricks! Feel free to give me some suggestions!",
+        "All photos and graphics on this site are made by me!"
 
                       ];
     //Choose a new greeting                  

@@ -9,25 +9,59 @@
     <script src="scripts/greetingHandler.js"></script>
   </head>
   <body onload="newGreeting(homeGreeting)">
-    <span class="title">
+
+    <section class="homeHeader">
       <div class="titleContainer">
-        <div class="row">
-          <div class="col">      
-            <img class="icon" src="img/classicIcon.jpg">
+        <div class="fullRow">
+          <div class="col titleIconContainer">
+            <img class="smallIcon" src="graphics/pics/classicIcon.png" alt="ClassiCorey Icon">
           </div>
-          <div class="col doubleCol">   
-            <div class="titleContent">   
-              <h1>Corey Crooks</h1>
-              <h2>Front-End Programmer</h2>
-              <h2>&#47;&#47;Portfolio Website</h2>
-            </div>
+          <div class="tripleCol rndGreetingContainer">
+            <h3 class="randomGreeting" id="homeGreeting"></h3>
           </div>
         </div>
       </div>
-    </span>
-    <div>
-      <h3 class="casualGreeting">hey there</h3>
-      <h3 class="randomGreeting" id="homeGreeting"></h3>
-    </div>
+    </section>
+
+    <section class="flowerGreeting">
+      <div class="flowerContainer">
+        <div class="fullRow">
+          <div class="col">
+          </div>
+          <div class="col">
+          </div>
+          <div class="col greetingDisplay">
+            <img class="questionIcon" src="graphics/pics/classicIcon.png">
+            <h1 class="name">Corey Crooks</h1>
+            <div>
+            <h2>Front&#45;End Software Programming</h2>
+            <h2>&#47;&#47;Portfolio Website</h2>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="logicSection">
+      <div class="logicDiv">
+        <div class="row">
+          <div class="questionCol">
+            <img class="questionIcon" src="graphics/svgs/Question Mark.svg">
+          </div>
+          <div class="tripleCol">
+            <h4><span class="questionHeader">Who am I?</span></h4>
+            <h5>I am <span class="bioName">Corey Crooks</span>&#59; a front&#45;end programmer.</h5>
+            <br>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I started my enthusiasm back in middle school when I got a hold of HTML. The idea of writing at a keyboard, and making fantastic images appear on screen was simply fascinating. I started with an early local site with no hosting whatsoever written purely in HTML.</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My intrigue has grown since then with the innovations of the language, my learning on more complex topics, and my own skill sets being bolstered and honed through hard work. Although much of this work was self-taught, I am thankful to be nearing my Bachelor's of Science in Software Programming.</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Today, I use my free time engaging in new technological systems to further expand my knowledge. The ever&#45;changing climate of website design draws me in, but I am no stranger to back&#45;end work in C&#35;, Python, or even SQL! 
+              This site serves as both a benchmark for my current front&#45;end progress, and also a portfolio for what I've done in the past! I have pages for my work experience, photography hobby, and design philosophies.</p>
+          </div>
+        </div>
+      </div>
+      <img class="logic0" src="graphics/pics/LogicGates.png" alt="Logic gates.">
+      <img class="logic1" src="graphics/pics/LogicGates1.png" alt="More logic gates.">    
+
+    </section>
+
   </body>
 </html>

@@ -75,6 +75,26 @@ p.multiParagraph{
 End boilerplate CSS reset
 */
 
+/* 
+Start Media Queries 
+*/
+@media (max-width: 1545px){
+    h1, h4{
+        font-size: 3rem;
+    }
+    h2, h3, h5, h6{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+    }
+}
+
+
+/* 
+Start debug rulings
+*/
 .debug{
     outline: 2px solid green;
 }

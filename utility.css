@@ -1,0 +1,121 @@
+/*   CSS stylings for the site-wide layout via Utility Classes   */
+
+.dNone{
+    display: none;
+}
+.dFlex{
+    display: flex;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.rowCollapsable{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.fullWidth{
+    width: 100%;
+}
+
+.flexTriple{
+    flex: 3;
+}
+
+.flexAlignCenter{
+    align-items: center;
+}
+.flexAlignEnd{
+    align-items: end;
+}
+.flexAlignStretch{
+    align-items: stretch;
+}
+.flexJustifyCenter{
+    justify-content: center;
+}
+
+.flexJustifyEnd{
+    justify-content: end;
+}
+
+.flexSpaceBtn{
+    justify-content: space-between;
+}
+
+.noOverflow{
+    overflow: hidden;
+}
+
+.clickable{
+    cursor: pointer;
+}
+.textCenter{
+    text-align: center;
+}
+.textRight{
+    text-align: right;
+}
+.paddingR20{
+    padding-right: 20%;
+}
+.paddingL20{
+    padding-left: 20%;
+}
+
+@media (max-width: 1545px){
+
+    .smallDBlock{
+        display: block;
+    }
+
+    .rowCollapsable{
+        flex-direction: column;
+    }
+
+    .centerOnSmall{
+        align-items: center;
+        text-align: center;
+    }
+
+    .textRight{
+        text-align: center;
+    }
+    .smallFlexJustifyCenter{
+        justify-content: center;
+    }
+
+    .smallDNone{
+        display: none;
+    }
+
+    .smallReset{
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .smallOrder1{
+        order: 1;
+    }
+    .smallOrder2{
+        order: 2;
+    }
+    .smallOrder3{
+        order: 3;
+    }
+    .smallSpacer{
+        padding: 3rem 0 3rem 0;
+    }
+}

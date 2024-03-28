@@ -23,6 +23,7 @@
 
 .greetingDisplay{
     background-color:rgba(0,0,0,0.5);
+    padding-bottom: 3rem;
     color:#D8D8D8;
 }
 

@@ -15,7 +15,7 @@
 
 .flowerContainer{
     width: 100svw;
-    height: 80svh;
+    min-height: 80svh;
     max-width: 100%;
     background-image: url("graphics/pics/homeBackgroundFlower.png");
     background-size: cover;

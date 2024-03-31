@@ -53,10 +53,10 @@ table {
 	border-spacing: 0;
 }
 h1,h4{
-    font-size: 5rem;
+    font-size: 3rem;
 }
 h2, h3, h5, h6{
-    font-size: 3.5rem;
+    font-size: 2.7rem;
 }
 img{
     display: block;
@@ -71,9 +71,7 @@ p.multiParagraph{
     padding-bottom: 1rem;
     text-align: start;
 }
-/*
-End boilerplate CSS reset
-*/
+
 
 /* 
 Start Media Queries 
@@ -91,6 +89,18 @@ Start Media Queries
     }
 }
 
+@media (max-width: 2000px){
+    h1, h4{
+        font-size: 3rem;
+    }
+    h2, h3, h5, h6{
+        font-size: 2.5rem;
+    }
+    p{
+        font-size: 1.3rem;
+        line-height: 1.4rem;
+    }
+}
 
 /* 
 Start debug rulings

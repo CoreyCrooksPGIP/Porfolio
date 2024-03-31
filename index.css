@@ -198,6 +198,7 @@ h1{
     Start Media Queries
 */
 @media (max-width: 1545px){
+
     .pageSelectTextPadding{
         padding: 0px 0px 0px 0px;
     }
@@ -212,4 +213,5 @@ h1{
         padding-bottom: 2rem;
         line-height: 5rem;
     }
+    
 }

@@ -4,11 +4,6 @@
     background-color: #1F1F1F;
 }
 
-.smallIcon{
-    width:100px;
-    height: 100px;
-}
-
 #homeGreeting{
     color: #D8D8D8;
 }
@@ -17,7 +12,7 @@
     width: 100svw;
     min-height: 80svh;
     max-width: 100%;
-    background-image: url("graphics/pics/homeBackgroundFlower.png");
+    background-image: url("/PGIPpages/Portfolio/graphics/pics/homeBackgroundFlower.png");
     background-size: cover;
 }
 
@@ -50,23 +45,6 @@ h1{
     border-radius: 100%;
     outline: 2px dashed #D8D8D8;
     outline-offset: 20px;
-}
-
-.photographyLink{
-    background-color: #B12A2A;
-    padding: 50px;
-    border-radius: 100px 0px 0px 100px;
-}
-
-.professionalLink{
-    background-color: #B12A2A;
-    padding: 50px;
-}
-
-.philosophiesLink{
-    background-color: #B12A2A;
-    padding: 50px;
-    border-radius: 0px 100px 100px 0px;
 }
 
 .homeIcon{
@@ -145,7 +123,7 @@ h1{
 .workHistoryHeader{
     text-decoration: underline solid #CC3737 10px;
     text-underline-offset: 15px;
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
 }
 
 .spacer{

@@ -76,6 +76,10 @@
     padding-left: 20%;
 }
 
+.strongest{
+    font-weight: 900;
+}
+
 @media (max-width: 1545px){
 
     .smallDNone{

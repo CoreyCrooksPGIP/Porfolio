@@ -34,6 +34,7 @@
 }
 
 .workGrid{
+    padding: 5rem 0 0 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas:
@@ -48,6 +49,7 @@
 
 .company{
     grid-area: company;
+    font-weight:800;
 }
 
 .year{
@@ -57,6 +59,7 @@
 
 .title{
     grid-area: title;
+    font-weight: 600;
 }
 
 .description{

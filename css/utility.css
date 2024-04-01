@@ -3,6 +3,7 @@
 .dNone{
     display: none;
 }
+
 .dFlex{
     display: flex;
 }
@@ -77,6 +78,14 @@
 
 @media (max-width: 1545px){
 
+    .smallDNone{
+        display: none;
+    }
+
+    .smallDFlex{
+        display: flex;
+    }
+
     .smallDBlock{
         display: block;
     }
@@ -97,10 +106,6 @@
         justify-content: center;
     }
 
-    .smallDNone{
-        display: none;
-    }
-
     .smallReset{
         padding: 0px 0px 0px 0px;
         margin: 0px 0px 0px 0px;
@@ -109,12 +114,15 @@
     .smallOrder1{
         order: 1;
     }
+
     .smallOrder2{
         order: 2;
     }
+
     .smallOrder3{
         order: 3;
     }
+
     .smallSpacer{
         padding: 3rem 0 3rem 0;
     }

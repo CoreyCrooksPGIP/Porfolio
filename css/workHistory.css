@@ -1,0 +1,80 @@
+
+.workHeader{
+    background-image: url("/PGIPpages/Portfolio/graphics/svgs/slice1.svg");
+    background-repeat: repeat;
+    color: white;
+    padding: 4rem 20svw 4rem 20svw;
+}
+
+.workSubHeader{
+    color: #e2e2e2;
+}
+
+.workHeaderContainer{
+    display: flex;
+    width: 100%;
+    height: 90svh;
+    background-image: url("/PGIPpages/Portfolio/graphics/pics/SeattleSkyline.png");
+    background-size: cover;
+}
+
+.headerCol{
+    padding: 25svh 0 0 10%;
+}
+
+.headerText{
+    background-color: rgba(0,0,0,.5);
+    padding: 1rem 1rem 1rem 1rem;
+    color: white;
+    text-shadow:
+     -1px -1px 10 #9B9B9B,  
+      1px -1px 0 #9B9B9B,
+     -1px 1px 0 #9B9B9B,
+      1px 1px 0 #9B9B9B;
+}
+
+.workGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    'year company company company'
+    'year title title title'
+    'year description description description'
+    'year description description description'
+    'year pills pills pills'
+    'year contact contact contact';
+    gap: 1rem;
+}
+
+.company{
+    grid-area: company;
+}
+
+.year{
+    grid-area: year;
+    text-align: end;
+}
+
+.title{
+    grid-area: title;
+}
+
+.description{
+    grid-area: description;
+}
+
+.contact{
+    grid-area: contact;
+}
+
+.pills{
+    grid-area: pills;
+}
+
+.pill{
+    background-image: radial-gradient(farthest-corner at 100% 100%, #8000DA, #8000DA, #DA004A);
+    padding: 0 15px 0 15px;
+    display:inline-block;
+    border-radius: 15px;
+    outline: 5px solid #44174A;
+}

@@ -55,6 +55,10 @@ table {
 h1,h4{
     font-size: 3rem;
 }
+
+h1.mainHeader{
+    font-weight: 900;
+}
 h2, h3, h5, h6{
     font-size: 2.7rem;
 }
@@ -83,7 +87,7 @@ p.multiParagraph{
 }
 
 .navContainer{
-  background-color: #B12A2A;
+  background-image: linear-gradient(150deg, #892020, #340b0b);
   color: white;
   height: 100px;
   padding-left: 2rem;
@@ -108,6 +112,38 @@ p.multiParagraph{
   color: rgb(169, 169, 169);
 }
 
+.navHamburger{
+    width: 50px;
+    height: 50px;
+    padding: 0rem 2rem 0rem 0rem;
+}
+
+.responsiveNavContainer{
+    background-color: #1F1F1F;
+    color: white;
+    transform-origin: top;
+    transform: scaleY(0);
+    transition: transform 0.3s ease;
+    position: absolute;
+    width: 100%;
+}
+
+.nav-open {
+    transform: scale(1);
+  }
+
+.responsiveNavItem{
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.responsiveNavItem:Hover{
+    background-color: #B12A2A;
+    padding-left: 2rem;
+}
+
+.muted{
+    color: #b4b4b4;
+}
 /* 
 Start Media Queries 
 */

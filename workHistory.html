@@ -13,25 +13,74 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <body>
-
+    <!-- NavBar -->
     <div class="row fullRow navContainer flexAlignCenter">
       <div class="col">
         <img src="graphics/pics/classicIcon.png" class="smallIcon clickable" alt="ClassiCorey Icon" onclick="window.location.href='index.html'">
       </div>
       <div class="col">
-        <p>center aligned text</p>
+        <p>Corey Crooks Work</p>
       </div>
       <div class="row rightSideNav flexAlignCenter">
-        <div class="col navLinkContainer" onclick="window.location.href='workHistory.html'">
-          <p class="navLinks">Work History</p>
+        <img src="graphics/svgs/HamburgerButton.svg" class="navHamburger dNone smallDFlex" id="hamburgerButton" onclick="navToggle()">
+        <div class="col navLinkContainer smallDNone" onclick="window.location.href='workHistory.html'">
+          <p class="navLinks muted">Work History</p>
         </div>
-        <div class="col navLinkContainer" onclick="window.location.href='photography.html'">
+        <div class="col navLinkContainer smallDNone" onclick="window.location.href='photography.html'">
           <p class="navLinks">Photography</p>
         </div>
-        <div class="col navLinkContainer"  onclick="window.location.href='philosophies.html'">
+        <div class="col navLinkContainer smallDNone"  onclick="window.location.href='philosophies.html'">
           <p class="navLinks">Design Philosophies</p>
         </div>
       </div>
     </div>
+    <!-- Small Screen Nav Bar -->
+    <div class="col dFlex responsiveNavContainer" id="responsiveNavContainer">
+      <div class="row responsiveNavItem clickable" onclick="window.location.href='workHistory.html'">
+        <p class="muted">Work History</p>
+      </div>
+      <div class="row responsiveNavItem clickable" onclick="window.location.href='photography.html'">
+        <p>My Photography</p>
+      </div>
+      <div class="row responsiveNavItem clickable" onclick="window.location.href='philosophies.html'">
+        <p>My Design Philosophies</p>
+      </div>
+    </div>
+    <!-- End NavBar -->
+    
+    <div class="workHeaderContainer">
+      <div class="col headerCol">
+        <h1 class="mainHeader headerText">See what I've been up to</h1>
+        <h2 class="headerText">Seattle's a big place. I'm trying to carve my home in it.</h1>
+      </div>
+    </div>
+
+    <section class="workHeader">
+      <h3 class="textCenter">Work history, recent up top.</h3><br>
+      <div class="workGrid">
+        <div class="year">
+          <h4>2024</h4>
+        </div>
+        <div class="company">
+          <h4>VeoRide Inc.</h4>
+        </div>
+        <div class="title">
+          <h4>Delivery and Technician</h4>
+        </div>
+        <div class="description">
+          <p>Gathering bikes and beta-testing live service features with our market.</p>
+        </div>
+        <div class="pills">
+          <p class="pill">Live Service</p>
+          <p class="pill">Beta Testing</p>
+          <p class="pill">Technical Support</p>
+        </div>
+        <div class="contact muted">
+          <p>References available upon request.</p>
+        </div>
+      </div>
+
+    </section>
+
   </body>
 </html>

@@ -14,7 +14,7 @@
     display: flex;
     width: 100%;
     height: 90svh;
-    background-image: url("/PGIPpages/Portfolio/graphics/pics/SeattleSkyline.png");
+    background-image: url("graphics/pics/SeattleSkyline.png");
     background-size: cover;
 }
 

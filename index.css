@@ -12,7 +12,7 @@
     width: 100svw;
     min-height: 80svh;
     max-width: 100%;
-    background-image: url("/PGIPpages/Portfolio/graphics/pics/homeBackgroundFlower.png");
+    background-image: url("graphics/pics/homeBackgroundFlower.png");
     background-size: cover;
 }
 

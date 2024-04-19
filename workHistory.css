@@ -1,6 +1,7 @@
 
 .workHeader{
     background-image: url("/PGIPpages/Portfolio/graphics/svgs/slice1.svg");
+    background-color: rgb(70, 58, 58);
     background-repeat: repeat;
     color: white;
     padding: 4rem 20svw 4rem 20svw;
@@ -23,8 +24,8 @@
 }
 
 .headerText{
-    background-color: rgba(0,0,0,.5);
-    padding: 1rem 1rem 1rem 1rem;
+    background: linear-gradient(to right, rgba(0,0,0,.7), rgba(0,0,0,.3), rgba(0,0,0,0.1), rgba(0,0,0,0));
+    padding: 1rem 1rem 1rem 2rem;
     color: white;
     text-shadow:
      -1px -1px 10 #9B9B9B,  
@@ -55,6 +56,7 @@
 .year{
     grid-area: year;
     text-align: end;
+    padding-top: 1rem;
 }
 
 .title{
@@ -75,9 +77,16 @@
 }
 
 .pill{
-    background-image: radial-gradient(farthest-corner at 100% 100%, #8000DA, #8000DA, #DA004A);
-    padding: 0 15px 0 15px;
+    background-image: radial-gradient(farthest-corner at 100% 100%, #2800da, #8000DA, #DA004A);
+    padding: 2px 15px 2px 15px;
     display:inline-block;
     border-radius: 15px;
-    outline: 5px solid #44174A;
+    outline: 5px solid #431d04;
+}
+.bishopPill{
+    background-image: radial-gradient(farthest-corner at 100% 100%, #df6a03, #da0000);
+}
+.bishopsLogo{
+    width: 350px;
+    height: 100px;
 }

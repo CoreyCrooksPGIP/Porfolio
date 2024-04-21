@@ -1,4 +1,9 @@
 
+:root{
+    --clrBishops: #F04E25;
+    --clrVeo: #20A29F;
+    --clrPGIP: #C08E2B;
+}
 .workHeader{
     background-image: url("graphics/svgs/slice1.svg");
     background-size: cover;
@@ -78,19 +83,33 @@
 }
 
 .pill{
-    background-image: radial-gradient(farthest-corner at 100% 100%, #2800da, #8000DA, #DA004A);
     padding: 2px 15px 2px 15px;
     display:inline-block;
     border-radius: 15px;
-    outline: 5px solid #431d04;
+}
+.veoPill{
+    background-image: radial-gradient(farthest-corner at 100% 100%, var(--clrVeo), black);
+    outline: 5px solid #062121;
 }
 .bishopPill{
-    background-image: radial-gradient(farthest-corner at 100% 100%, #df6a03, #da0000);
+    background-image: radial-gradient(farthest-corner at 100% 100%, var(--clrBishops), black);
     outline: 5px solid #3d1500;
 }
 .pgipPill{
-    background-image: radial-gradient(farthest-corner at 100% 100%, #504300, #ad7806, #7c4600);
+    background-image: radial-gradient(farthest-corner at 100% 100%, var(--clrPGIP), black);
     outline: 5px solid #341f00;
+}
+.bishops{
+    color: var(--clrBishops);
+    text-decoration: none;
+}
+.veo{
+    color: var(--clrVeo);
+    text-decoration: none;
+}
+.pgip{
+    color: var(--clrPGIP);
+    text-decoration: none;
 }
 .bishopsLogo{
     width: 350px;

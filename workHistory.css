@@ -70,7 +70,7 @@
 
 .contact{
     grid-area: contact;
-}
+}       
 
 .pills{
     grid-area: pills;
@@ -85,8 +85,32 @@
 }
 .bishopPill{
     background-image: radial-gradient(farthest-corner at 100% 100%, #df6a03, #da0000);
+    outline: 5px solid #3d1500;
+}
+.pgipPill{
+    background-image: radial-gradient(farthest-corner at 100% 100%, #504300, #ad7806, #7c4600);
+    outline: 5px solid #341f00;
 }
 .bishopsLogo{
     width: 350px;
     height: 100px;
+}
+
+/*
+Start Media Queries 
+*/
+/* Small Screens (tablets, smartphones) */
+@media (max-width: 1545px){
+    .workGrid{
+        grid-template-areas:
+        'year year year year'
+        'company company company company'
+        'title title title title'
+        'description description description description'
+        'pills pills pills pills'
+        'contact contact contact contact';
+    }
+    .year{
+        text-align: start;
+    }
 }

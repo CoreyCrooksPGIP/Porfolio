@@ -144,6 +144,7 @@ p.multiParagraph{
 /* 
 Start Media Queries 
 */
+/* Small Screens (tablets, smartphones) */
 @media (max-width: 1545px){
     h1, h4{
         font-size: 3rem;
@@ -156,13 +157,13 @@ Start Media Queries
         line-height: 1.4rem;
     }
 }
-
+/* 1080p-ish screens */
 @media (max-width: 2000px){
     h1, h4{
         font-size: 3rem;
     }
     h2, h3, h5, h6{
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     p{
         font-size: 1.3rem;

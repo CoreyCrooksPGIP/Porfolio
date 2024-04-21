@@ -1,6 +1,7 @@
 
 .workHeader{
     background-image: url("graphics/svgs/slice1.svg");
+    background-size: cover;
     background-color: rgb(70, 58, 58);
     background-repeat: repeat;
     color: white;

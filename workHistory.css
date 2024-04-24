@@ -4,14 +4,24 @@
     --clrVeo: #20A29F;
     --clrPGIP: #C08E2B;
 }
+body{
+    background-color: #272323;
+}
 .workHeader{
-    background-image: url("graphics/svgs/slice1.svg");
-    background-size: cover;
-    background-color: rgb(70, 58, 58);
-    background-repeat: repeat;
     color: white;
     padding: 4rem 20svw 4rem 20svw;
+    position: relative;
+    overflow:hidden;
 }
+.workHeader::before {
+    content: url("graphics/svgs/BackgroundOvalRectangle.svg");
+    position: absolute;
+    width: 500px;
+    top: 0px;
+    left:0;
+    z-index: -1;
+}
+
 
 .workSubHeader{
     color: #e2e2e2;
@@ -111,9 +121,19 @@
     color: var(--clrPGIP);
     text-decoration: none;
 }
-.bishopsLogo{
-    width: 350px;
+.pgipLogo{
+    height: 80px;
+}
+.veoLogo{
     height: 100px;
+}
+.bishopsLogo{
+    height: 120px;
+}
+.disclaimerFooter{
+    background-color: #373131;
+    color: #9b9191;
+    padding: 2rem 5rem 2rem 5rem;
 }
 
 /*
@@ -121,6 +141,11 @@ Start Media Queries
 */
 /* Small Screens (tablets, smartphones) */
 @media (max-width: 1545px){
+
+    .workHeader::before {
+        left: 75%;
+    }
+
     .workGrid{
         grid-template-areas:
         'year year year year'
@@ -130,6 +155,7 @@ Start Media Queries
         'pills pills pills pills'
         'contact contact contact contact';
     }
+
     .year{
         text-align: start;
     }

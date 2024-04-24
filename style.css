@@ -138,6 +138,17 @@ p.multiParagraph{
     padding-left: 2rem;
 }
 
+.underConstructionAlert{
+    color: white;
+}
+.alertRow{
+    padding: 1rem 0 1rem 0;
+    background: linear-gradient(to right, #A90A0A, #A90A0A, #470404);
+}
+.alertLogo{
+    width: 75px;
+}
+
 .muted{
     color: #b4b4b4;
 }

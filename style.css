@@ -57,15 +57,15 @@ h1,h4{
 }
 
 h2, h3, h5, h6{
-    font-size: 2.7rem;
+    font-size: 2rem;
 }
 img{
     display: block;
     max-width: 100%;
 }
 p{
-    font-size: 2rem;
-    line-height: 2.1rem;
+    font-size: 1.3rem;
+    line-height: 1.4rem;
 }
 p.multiParagraph{
     padding-top: 2rem;
@@ -166,19 +166,6 @@ Start Media Queries
     }
     p{
         font-size: 1.2rem;
-        line-height: 1.4rem;
-    }
-}
-/* 1080p-ish screens */
-@media (max-width: 2000px){
-    h1, h4{
-        font-size: 3rem;
-    }
-    h2, h3, h5, h6{
-        font-size: 2rem;
-    }
-    p{
-        font-size: 1.3rem;
         line-height: 1.4rem;
     }
 }

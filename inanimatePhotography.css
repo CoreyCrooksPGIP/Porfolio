@@ -34,6 +34,7 @@ body{
     }
     .photographyGrid{
         grid-template-columns: 1fr;
+        padding: 0 5svw 0 5svw;
     }
     .pictureContainer:hover .picture{
         scale:1;

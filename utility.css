@@ -84,6 +84,19 @@
     padding: 2rem 0 2rem 0;
 }
 
+.philosophy{
+    position: relative;
+}
+
+.philosophy::before{
+    content:url('graphics/svgs/Quotations.svg');
+    position: absolute;
+    width: 75px;
+    top: 50px;
+    left: -150px;
+    rotate: 180deg;
+}
+
 @media (max-width: 1545px){
 
     .smallDNone{

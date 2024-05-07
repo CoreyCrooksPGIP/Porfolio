@@ -117,6 +117,7 @@ p.multiParagraph{
 
 .responsiveNavContainer{
     background-color: #1F1F1F;
+    z-index: 10;
     color: white;
     transform-origin: top;
     transform: scaleY(0);
